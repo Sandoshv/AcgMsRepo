@@ -142,7 +142,9 @@
 				"type": "Parquet",
 				"typeProperties": {
 					"location": {
-						"type": "AzureBlobFSLocation"
+						"type": "AzureBlobFSLocation",
+						"folderPath": "Output",
+						"fileSystem": "taxidata"
 					},
 					"compressionCodec": "snappy"
 				},
